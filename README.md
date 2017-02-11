@@ -10,7 +10,7 @@ this will install all the packages necessary for Parsey McParseface.
 
 Once these packages have been installed, clone Parsey McParseface into the src directory:
 
-git clone https://github.com/tensorflow/models.git
+git clone --recursive https://github.com/tensorflow/models.git
 
 Finally, patch conll2tree.py by running (from the src directory):
 
